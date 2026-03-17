@@ -1,0 +1,19 @@
+{
+  "name": "multi-stage-node-app",
+  "version": "1.0.0",
+  "description": "A Node.js app containerized with multi-stage Docker builds",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --passWithNoTests",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  }
+}
